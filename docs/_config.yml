@@ -1,0 +1,193 @@
+# Xonotic Documentation Site Configuration
+
+# Site settings
+title: "Xonotic Documentation"
+email: "docs@xonotic.org"
+description: >-
+  Complete guide to Xonotic - the fast-paced open source arena shooter.
+  Learn gameplay mechanics, advanced movement, server administration, 
+  modding, and competitive strategies.
+
+baseurl: "/xonotic" # the subpath of your site, e.g. /blog
+url: "https://xonotic-developers.github.io" # the base hostname & protocol
+
+# SEO and social
+twitter:
+  username: xonotic
+  card: summary_large_image
+
+facebook:
+  app_id: 1234567890
+  publisher: https://www.facebook.com/xonotic
+
+logo: /assets/images/xonotic-logo.png
+social:
+  name: Xonotic
+  links:
+    - https://twitter.com/xonotic
+    - https://www.facebook.com/xonotic
+    - https://github.com/Xonotic-Developers
+    - https://discord.gg/xonotic
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-redirect-from
+
+# Pagination
+paginate: 10
+paginate_path: "/page:num/"
+
+# Collections
+collections:
+  guides:
+    output: true
+    permalink: /:collection/:name/
+  tutorials:
+    output: true
+    permalink: /:collection/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Xonotic Team"
+  - scope:
+      path: ""
+      type: "guides"
+    values:
+      layout: "guide"
+  - scope:
+      path: ""
+      type: "tutorials"
+    values:
+      layout: "tutorial"
+
+# Navigation
+header_pages:
+  - getting-started.md
+  - gameplay.md
+  - multiplayer.md
+  - development.md
+  - community.md
+
+# Footer links
+footer_links:
+  - title: "Download"
+    url: "https://xonotic.org/download"
+  - title: "Forums"
+    url: "https://forums.xonotic.org"
+  - title: "Discord"
+    url: "https://discord.gg/xonotic"
+  - title: "GitHub"
+    url: "https://github.com/Xonotic-Developers/xonotic"
+
+# Analytics
+google_analytics: UA-XXXXXXXX-X
+
+# Search
+search: true
+search_full_content: true
+
+# Compression
+sass:
+  style: compressed
+
+# Exclude from processing
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
+
+# Include
+include:
+  - .htaccess
+  - _pages
+
+# Markdown settings
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+
+# Plugin settings
+feed:
+  path: feed.xml
+
+sitemap:
+  file: "/sitemap.xml"
+
+# Game-specific metadata
+game:
+  name: "Xonotic"
+  version: "0.8.6"
+  genre: "Arena Shooter"
+  platforms: ["Windows", "Mac", "Linux"]
+  engine: "DarkPlaces"
+  license: "GPL-3.0"
+  release_year: 2011
+  
+# Documentation metadata
+docs:
+  version: "1.0"
+  last_updated: "2024-01-15"
+  maintainer: "Xonotic Community"
+  
+# GitHub integration
+repository: "Xonotic-Developers/xonotic"
+github_username: "Xonotic-Developers"
+
+# Comments (if using)
+disqus:
+  shortname: xonotic-docs
+
+# Performance
+liquid:
+  error_mode: warn
+  strict_filters: false
+  strict_variables: false
+
+# Development
+show_excerpts: true
+future: false
+safe: true
+incremental: false
+profile: false
+
+# Time zone
+timezone: UTC
+
+# Custom variables for SEO
+keywords:
+  - "xonotic"
+  - "arena shooter"
+  - "open source fps"
+  - "quake-like"
+  - "multiplayer fps"
+  - "competitive fps"
+  - "bunnyhopping"
+  - "movement shooter"
+  - "darkplaces engine"
+  - "free fps game" 
