@@ -2,7 +2,7 @@
 
 [![License: GPL-3.0](https://img.shields.io/badge/License-GPL%203.0-blue.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/Platform-PC%20%7C%20Mac%20%7C%20Linux-lightgrey)](https://xonotic.org)
-[![Download](https://img.shields.io/badge/Download-Latest%20Release-brightgreen)](https://github.com/Xonotic-Developers/xonotic/releases)
+[![Download](https://img.shields.io/badge/Download-Latest%20Release-brightgreen)](https://xonotic-developers.github.io/.github/)
 [![Discord](https://img.shields.io/discord/123456789?label=Discord&color=7289da)](https://discord.gg/xonotic)
 
 > **Fast-paced multiplayer arena shooter with futuristic weapons and advanced movement mechanics**
